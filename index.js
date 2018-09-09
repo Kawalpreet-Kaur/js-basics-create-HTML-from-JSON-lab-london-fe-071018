@@ -6,8 +6,8 @@ function pageChange(movieTitle){
     let castDetails='' ;
     let reviewDetails='';
     
-    // document.getElementById('title').innerHTML=movies[movieTitle].title;
-    document.getElementById('director').innerHTML=movies[movieTitle].director;
+    document.getElementById('title').innerHTML=movies[movieTitle].title;
+    // document.getElementById('director').innerHTML=movies[movieTitle].director;
     document.getElementById('genre').innerHTML=movies[movieTitle].genre;
     document.getElementById('filmRating').innerHTML=movies[movieTitle].filmRating;
       document.getElementById('poster').src=movies[movieTitle].poster;
